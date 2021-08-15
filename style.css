@@ -173,6 +173,7 @@ strong {
 .want-to-learn-container a {
     margin-left: 0;
     text-decoration: none;
+    padding: 0;
 }
 
 .want-to-learn-container button {
@@ -206,6 +207,7 @@ strong {
 .here-to-help p {
     margin-left: 20px;
     color: #6d6666;
+    padding: 20px;
 }
 
 .contacts {
@@ -224,6 +226,14 @@ strong {
     display: flex;
     list-style: none;
     margin-left: -38px;
+}
+
+.support-email p {
+    padding: 0 10px;
+}
+
+.support-email a {
+    padding: 0;
 }
 
 .Happy-travels-container {
