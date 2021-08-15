@@ -1,0 +1,335 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    display: flex;
+    width: 100%;
+}
+
+.reminder-email {
+    flex: 0.8;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: grey;
+}
+
+.social-media-link img{
+    width: 100%;
+}
+
+.social-media-link ul {
+    display: flex;
+    flex: 0.2;
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.social-media-link p {
+    font-size: 20px;
+    color: rgb(65, 64, 64);
+}
+
+strong {
+    color: rgb(65, 64, 64);
+}
+
+.jet-setter-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 73px;
+    background-color: black;
+}
+
+.jet-setter, .jet-bold {
+    text-transform: uppercase;
+    color: #c1c1c1;
+    margin-left: 20px;
+}
+
+.jet-bold {
+    color: #fff;
+}
+
+.welcome-to-the-club-header {
+    padding: 0px 40px;
+    color: gray;
+}
+
+.visit-jetsetter-container {
+    display: flex;
+    background: #d9d7d7;
+}
+
+.visit-jetsetter {
+    flex: 0.7;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+.beach-img {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.visit-jetsetter p, a {
+    padding: 0 25px;
+}
+
+.visit-jetsetter a button {
+    height: 30px;
+    background-color: #f29240;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+}
+
+.daily-news-flash {
+    width: 99%;
+    height: 100%;
+    border: 2px solid #c9c9c9;
+    background-color: #d9d7d7;
+}
+
+.daily-news-flash h3 {
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.daily-news-flash p {
+    padding: 0 20px;
+}
+
+.log-in {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.log-in img {
+    width: 132px;
+    height: 132px;
+}
+
+.log-in a {
+    padding: 0 14px;
+    margin-left: 0;
+    height: 100%;
+    color: #f29240;
+    text-decoration: none;
+}
+
+.start-tour-container {
+    display: flex;
+    height: 300px;
+    border: 1px solid #c9c9c9;
+}
+
+.start-tour-folder-image {
+    flex: 0.2;
+    padding: 20px;
+}
+
+.start-tour-folder-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.want-to-learn-container {
+    flex: 0.8;
+}
+
+.want-to-learn-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    padding: 20px;
+    align-self: center;
+}
+
+.want-to-learn-container a {
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.want-to-learn-container button {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    background-color: #c9c9c9;
+    border: 1px solid gray;
+}
+
+.want-to-learn-container button p {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+
+.customer-service-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d7d7;
+}
+
+.here-to-help {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    height: 75px;
+}
+
+.here-to-help p {
+    margin-left: 20px;
+    color: #6d6666;
+}
+
+.contacts {
+    display: flex;
+}
+
+.support-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 510px;
+    border: 1px solid gray;
+}
+
+.support-email ul {
+    display: flex;
+    list-style: none;
+    margin-left: -38px;
+}
+
+.Happy-travels-container {
+    padding: 20px;
+}
+
+.Happy-travels-container strong {
+    color: #f29240;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 180px;
+}
+
+.footer h1 {
+    flex: 0.8;
+    padding-right: 20px;
+    margin-left: 0;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer img {
+    width: 100%;
+    filter: invert(0.9);
+}
+
+@media screen and (max-width: 1000px) {
+    .start-tour-folder-image {
+        flex: 0.3;
+    }
+    .want-to-learn-container {
+        flex: 0.7;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .visit-jetsetter-container {
+        flex-direction: column;
+    }
+
+    .beach-img {
+        height: 310px;
+    }
+
+    .start-tour-folder-image {
+        flex: 0.4;
+    }
+    .want-to-learn-container {
+        flex: 0.6;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .top-header {
+        flex-direction: column;
+    }
+
+    .social-media-link ul {
+        padding-left: 40px;
+    }
+
+    .reminder-email {
+        padding-right: 40px;
+    }
+    
+    .start-tour-container {
+        flex-direction: column;
+        height: 545px;
+    }
+
+    .start-tour-folder-image {
+        height: 300px;
+    }
+
+    .start-tour-folder-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .want-to-learn-container a {
+        padding: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer ul {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .support-email {
+        flex-direction: column;
+        width: 99%;
+    }
+}
